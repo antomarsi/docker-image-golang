@@ -42,7 +42,7 @@ This will add your current directory as a volume to the container, set the worki
 $ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp golang make
 ``
 
-Image Variants
+# Image Variants
 
 The golang images come in many flavors, each designed for a specific use case.
 
